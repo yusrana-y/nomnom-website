@@ -1,0 +1,316 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.navbar{ 
+    display: flex;
+    height: 100px;
+}
+
+#logo{
+    padding-top: 8px;
+    padding-left: 15px;
+    width: 130px;
+    font-size: x-large;
+    color:rgb(227,35,13) ;
+}
+
+.link{
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Alegreya", serif;
+    
+}
+
+.link:hover{
+    border-bottom: 3px solid #000;
+    border-color: rgb(227,35,13);
+
+}
+
+ul li{
+    display:inline;
+    list-style: none;
+    margin-left: 70px;
+}
+
+#order-btn{
+    margin-left: 50px;
+    border: 1px;
+    border-radius:2px;
+    padding: 15px 85px;
+    font-size: 18px;
+    font-weight: 700;
+    color:white;
+    background-color: rgb(227,35,13);
+    font-family: "Alegreya", serif;
+    cursor: pointer;
+}
+
+#order-btn:hover ,#subscribe:hover{
+    background-color: white;
+    color: rgb(227,35,13);
+    border: 1px solid rgb(227,35,13);
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./media/strawberry\ aloe.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 5%;
+    padding-left: 8%;
+   
+}
+
+#main-btn{
+    border: none;
+    border-radius:2px;
+    padding: 15px 55px;
+    font-size: 18px;
+    font-weight: 700;
+    color:white;
+    background-color: rgb(227,35,13);
+    font-family: "Alegreya", serif;
+    text-decoration: none;
+}
+
+#main h1{
+    font-size: 50px;
+    font-weight:300;
+    font-style: italic;
+    color:rgb(227,35,13) ;
+}
+
+#main h3{
+    font-size:20px;
+    font-weight:700;
+    color:rgb(227,35,13) ;
+}
+
+#our-story{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 120vh;
+}
+
+#story-heading{
+    padding:5% 8%;
+    font-family: "Alegreya", serif;
+    font-weight: 500;
+}
+
+#story-heading h2{
+    color:rgb(227,35,13);
+    font-size: 40px;
+    text-align: center;
+}
+
+#story-heading p{
+    font-size:20px;
+    font-style: italic;
+    line-height: 1.5;
+    
+}
+
+#story-img{
+    margin-top: 50px;
+    height:550px;
+    width: 600px;
+}
+
+
+.menu {
+    font-family: "Alegreya", serif;
+    font-size: 14px;
+  }
+  
+  .menu-group-heading {
+    margin: 0;
+    padding-bottom: 1em;
+    color: rgb(227,35,13);
+    font-size: 40px;
+    padding-left: 40%;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+  
+  .menu-item {
+    display: flex;
+  }
+  
+  .menu-item-img {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-text {
+    flex-grow: 1;
+  }
+  
+  .menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .menu-item-name {
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-desc {
+    line-height: 1.6;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .menu {
+      font-size: 16px;
+    }
+  
+    .menu-group {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .menu-item-img {
+      width: 125px;
+      height: 125px;
+    }
+  }
+  
+#text-bar-content{
+    position: relative;
+    margin:0;
+    color: rgb(227,35,13);
+    font-weight: 600;
+    font-family: "Alegreya", serif;
+   
+    animation: movingtext 20s linear infinite;
+}
+
+@keyframes movingtext {
+    0%{transform:translateX(-100%);}
+    100%{transform:translateX(100%);}
+}
+
+#love-span{
+    font-style: italic;
+    text-decoration: underline;
+    font-family: "Alegreya", serif;
+}
+
+#follow-heading{
+    color: rgb(227,35,13);
+    text-align: center;
+}
+
+#follow-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-gallery{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+}
+
+#footer{
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+}
+#div1{
+    margin-top: 60px;
+    padding: 50px 20px 50px 90px;
+    font-family: "Alegreya", serif;
+}
+
+#div2{
+    margin-left:120px;
+
+}
+
+#div2 i{
+   padding:110px 10px 0px 30px;
+}
+
+#a-div-div2{
+    margin-top: 30px;
+    padding-left:90px; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+#div2 a{
+    color: rgb(2, 1, 0);
+    font-family: "Alegreya", serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+#div3{
+    margin-left: 80px;
+}
+
+#div3 p{
+    margin-top: 90px;
+    margin-left: 20px;
+    font-family: "Alegreya", serif; 
+    font-size: 18px;
+    text-align: justify;
+}
+
+#form1{
+    margin-left: 20px;
+}
+
+#email{
+    font-family: "Alegreya", serif; 
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#email-text{
+    border: 0px;
+    height: 25px;
+    width: 209px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color:rgb(227,35,13);
+}
+
+#subscribe{
+    font-family: "Alegreya", serif; 
+    font-size: 18px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(227,35,13) ;
+    border: 1px solid  rgb(227,35,13);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 2px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+#div4{
+    text-align: center;
+}
+
